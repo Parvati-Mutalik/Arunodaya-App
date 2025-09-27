@@ -1,0 +1,89 @@
+.team-container {
+  font-family: sans-serif;
+  background:   linear-gradient(135deg, #f9f9ff, #f1f5ff);
+  padding-bottom: 40px;
+}
+
+.team-title {
+  text-align: center;
+  color: #111111;
+  letter-spacing: 2px;
+  padding-top: 40px;
+}
+
+.team-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.team-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.team-tab {
+  background: #E5E5E5;
+  border-radius: 4px;
+  padding: 12px 40px;
+  margin: 0 12px;
+  font-weight: 600;
+  color: #818181;
+  user-select: none;
+}
+
+.team-tab-active {
+  background: #e5e5e5;
+  color: #000000;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 36px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 180px;
+}
+
+.team-member-image {
+  width: 180px;
+  height: 220px;
+  border-radius: 50% / 35%;
+  overflow: hidden;
+  margin-bottom: 12px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.profile-img {
+  font-size: 60px;
+  color: #93388E;
+}
+
+.team-member-name {
+  color: #070707;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-member-role {
+  color: #7e2525;
+  font-size: 16px;
+  opacity: 0.85;
+  margin-top: 2px;
+  text-align: center;
+}

@@ -1,0 +1,140 @@
+.school-container {
+  font-family: sans-serif;
+  background: #fff;
+  color: #34395e;
+  padding: 30px;
+  max-width: 100%;
+  margin: 30px auto;
+  border-radius: 15px;
+  box-shadow: 0 3px 15px rgba(44,44,44,0.06);
+}
+
+/* ===== Headings (Vision, Mission, About Us) ===== */
+.school-heading,
+.school-subheading {
+  color: #2c2162;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  margin: 1.5rem auto 1rem auto;
+}
+
+/* Vision bigger */
+.school-heading {
+  font-size: 2.4rem;
+}
+
+/* Mission + About Us smaller */
+.school-subheading {
+  font-size: 1.6rem;
+}
+
+/* Gradient underline */
+.school-heading::after,
+.school-subheading::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #ff4e50, #f9d423);
+  margin: 8px auto 0 auto;
+  border-radius: 2px;
+}
+
+/* ===== Vision Section ===== */
+.vision-section {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 30px 20px;
+  background: linear-gradient(135deg, #f9f9ff, #f1f5ff);
+  border-radius: 15px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.vision-section .school-heading {
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.school-text-center.school-mb-40 {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  font-weight: 600;
+  color: #2a2859;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* ===== Mission Section ===== */
+.school-mission-section {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.school-mission-text {
+  flex: 1 1 220px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  min-width: 220px;
+  color: #34395e;
+}
+
+.school-diagram {
+  flex: 1 1 260px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  min-width: 260px;
+}
+
+.school-diagram-image {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 20px;
+  background: #f8f8fa;
+  box-shadow: 0 1px 12px #d1d3d8;
+}
+
+/* ===== About Us Section ===== */
+.about-section {
+  text-align: center;
+  margin-top: 40px;
+  padding: 30px 20px;
+  background: linear-gradient(135deg, #fff8f8, #fff3e6);
+  border-radius: 15px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.about-section .school-subheading {
+  margin-bottom: 15px;
+}
+
+.school-about-text {
+  font-size: 1.15rem;
+  margin-top: 12px;
+  line-height: 1.8;
+  color: #31315b;
+  max-width: 900px;
+  
+  margin-right: auto;
+  text-align: left;
+}
+
+/* Divider line */
+.school-hr {
+  border: 0;
+  border-top: 3px solid #058bba;
+  width: 50%;
+  margin: 30px auto;
+  border-radius: 2px;
+}

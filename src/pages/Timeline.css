@@ -1,0 +1,67 @@
+.timeline-container {
+  text-align: center;
+  padding: 50px 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.timeline-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.timeline-subheading {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.timeline-road {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.timeline-road svg {
+  width: 100%;
+  height: 200px;
+}
+
+.milestones {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+}
+
+.timeline-point {
+  position: absolute;
+  transform: translateX(-50%);
+  width: 220px;
+}
+
+.timeline-marker {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px; /* square frame look */
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-content {
+  margin-top: 15px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 14px;
+  color: #333;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+}

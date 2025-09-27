@@ -1,0 +1,169 @@
+.contactOverlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.contactCard {
+  background: #fff;
+  color: #333;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 22px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+  overflow: auto;
+  animation: slideDown 0.3s ease-out;
+  padding: 0;
+}
+
+.contactHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  background: #fff;
+  padding: 12px 16px 8px 16px;
+  position: relative;
+  border-bottom: none;
+}
+
+.contactHeader-left {
+  display: flex; align-items: center; gap: 8px;
+}
+.contactLogo {
+  height: 38px;
+  width: 38px;
+  object-fit: contain;
+  background: #23234e;
+  border-radius: 6px;
+  margin-right: 4px;
+}
+
+.arunodayaText {
+  background: linear-gradient(to right, #ff5900, #fed14f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 1.35rem;
+  text-transform: uppercase;
+  margin-right: 8px;
+  letter-spacing: 1px;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 10px; top: 10px;
+  background: linear-gradient(135deg, #ffbb18 40%, #e7343e 90%);
+  border: none;
+  border-radius: 7px;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+}
+
+.contactBody {
+  padding: 18px 8px 12px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: stretch;
+}
+
+.contactCol {
+  background: #fff;
+  border-radius: 13px;
+  box-shadow: 0 3px 16px rgba(0,0,0,.09);
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
+  padding: 20px 10px 16px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactCol-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ff6900;
+  background: #fff4ea;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(238,157,63,0.08);
+}
+
+.contactCol-title {
+  font-size: 1.05rem;
+  color: #ff6900;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.contactCol-info {
+  font-size: 0.95rem;
+  color: #222;
+  text-align: center;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+/* For all screens: stack, fit width, scale fonts */
+@media (max-width: 600px) {
+  .contactCard {
+    max-width: 97vw;
+    border-radius: 16px;
+    padding: 0;
+  }
+  .contactHeader {
+    padding: 10px 10px 6px 10px;
+    gap: 8px;
+  }
+  .contactLogo {
+    height: 34px; width: 34px;
+  }
+  .arunodayaText {
+    font-size: 1rem;
+    margin-right: 4px;
+    letter-spacing: 0.5px;
+  }
+  .closeBtn {
+    width: 24px; height: 24px; font-size: 18px;
+    right: 4px; top: 4px;
+  }
+  .contactBody { padding: 12px 2px 8px 2px; gap: 10px; }
+  .contactCol { max-width: 98vw; padding: 14px 5px 10px 5px; }
+  .contactCol-icon { font-size: 1.2rem; width: 32px; height: 32px; margin-bottom: 4px;}
+  .contactCol-title { font-size: 0.95rem; margin-bottom: 5px;}
+  .contactCol-info { font-size: 0.85rem; }
+}
+
+/* Tablet adjustments */
+@media (min-width: 601px) and (max-width: 900px) {
+  .contactCard { max-width: 540px; }
+  .contactHeader { gap: 9px; padding: 12px 10px 6px 10px;}
+  .arunodayaText { font-size: 1.1rem;}
+  .contactCol { max-width: 430px; }
+  .contactCol-icon { font-size: 1.7rem; width: 38px; height: 38px;}
+  .closeBtn { width: 27px; height: 27px; font-size: 19px; }
+}
