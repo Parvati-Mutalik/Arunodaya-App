@@ -11,11 +11,11 @@ export default function InfoEdgeSection() {
         <div className="infoedge-left">
           <p>
           <h3> 
-            Seva UK – </h3>Provided the spacious, well-equipped premises where our children learn and grow./n
+            Seva UK – </h3>Provided the spacious, well-equipped premises where our children learn and grow.
 
-<h3> Hiten Fasteners Pvt. Ltd. and 4G5G Consultant Pvt. Ltd. –</h3> Our backbone partners, supporting us consistently through CSR funds./n
+<h3> Hiten Fasteners Pvt. Ltd. and 4G5G Consultant Pvt. Ltd. –</h3> Our backbone partners, supporting us consistently through CSR funds.
 
-<h3> Bank of Baroda – </h3>Donated physiotherapy beds to aid in children’s therapy sessions./n
+<h3> Bank of Baroda – </h3>Donated physiotherapy beds to aid in children’s therapy sessions.
 
 <h3> International Medical Association –</h3> Provided parallel bars, helping children walk with the aid 
                                                                  of calipers.
