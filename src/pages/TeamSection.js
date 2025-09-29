@@ -10,7 +10,7 @@ const founders = [
   { name: "Dr.Umesh Hadi", role: "(Members)", image: "/edit5.jpg" },
   { name: "Shri.Umakanatasa Merwade", role: "(Members)", image: "/edit3.jpg" },
   { name: "Shri.Prakash Vailaya", role: "(Members)", image: "/edit4.jpg" },
-  { name: "Shri.Basavaraj Pattanshetty", role: "(Members)", image: "/edit7.jpg" },
+  { name: "Shri.Basavaraj Pattanshetti", role: "(Members)", image: "/edit7.jpg" },
   { name: "Shri.Jayaprakash Bhajantri", role: "(Members)", image: "/edit8.jpg" },
   { name: "Shri.Lalit Jain", role: "(Members)", image: "/edit10.jpg" },
 ];
