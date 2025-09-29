@@ -31,7 +31,7 @@ function HomePage1() {
 
   const heroSlides = [
     {
-      image: "/arn.JPG",
+      image: "/arn.jpg",
       text: [
         "BEHIND EVERY STEP OUR CHILDREN TAKE",
         "THERE ARE HANDS THAT HOLD, HEARTS THAT CARE,",
