@@ -39,7 +39,7 @@ Near Shri.Panchamukhi Maruthi Temple, Bankers Colony, Hubli Road, Gadag - 582103
             <div className="contactCol-title">Our Phone</div>
             <div className="contactCol-info">
               Basavaraj.S.Pattanshetti 9449369553<br />
-              Dr.Jayaraj Mulgund  9448564388<br />
+              Shri.Jayaraj Mulgund  9448564388<br />
               Mallikarjun Naglapur 8151887302<br/>
             </div>
           </div>
