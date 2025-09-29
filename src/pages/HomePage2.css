@@ -117,17 +117,36 @@
 
 .about-section .school-subheading {
   margin-bottom: 15px;
+  text-align: center; /* changed from justify to center */
+  font-weight: 900;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+}
+
+/* Gradient underline for About Us heading */
+.about-section .school-subheading::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #ff4e50, #f9d423);
+  margin: 8px auto 0 auto;
+  border-radius: 2px;
+  text-align: center;
 }
 
 .school-about-text {
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   margin-top: 12px;
   line-height: 1.8;
   color: #31315b;
   max-width: 900px;
-  
+  margin-left: auto;
   margin-right: auto;
-  text-align: left;
+  text-align: justify;
 }
 
 /* Divider line */
@@ -137,4 +156,40 @@
   width: 50%;
   margin: 30px auto;
   border-radius: 2px;
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 992px) {
+  .about-section {
+    margin-top: 30px;
+    padding: 25px 15px;
+  }
+  .about-section .school-subheading {
+    font-size: 1.4rem;
+  }
+  .school-about-text {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+  .school-hr {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-section {
+    margin-top: 20px;
+    padding: 20px 10px;
+  }
+  .about-section .school-subheading {
+    font-size: 1.2rem;
+  }
+  .school-about-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    padding: 0 8px;
+  }
+  .school-hr {
+    width: 80%;
+  }
 }
