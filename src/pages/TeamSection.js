@@ -17,7 +17,7 @@ const founders = [
 
 
 const teamMembers = [
-  { name: "Shri. Malikarjun ", role: "(Administrator with Accounatant)", image: "/edit11.jpg" },
+  { name: "Shri. Malikarjun ", role: "(Administrator & Accountant)", image: "/edit11.jpg" },
   { name: "Shri. Mallappa Hakki", role: "(HeadMaster)", image: "/staff1.jpg" },
   { name: "Shri. Jagadeesh Hadapad ", role: "(Asst. Teacher)", image: "/staff5.jpg" },
   { name: "Smt. Jayshree Bahavre", role: "(Asst. Teacher)", image: "/staff4.jpg" },
