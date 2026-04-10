@@ -1,6 +1,7 @@
 import React from "react";
 import "./TeamSection.css";
 
+<<<<<<< HEAD
 const sevaBharati = [
   { name: "Shri. Purnachandrarao Ghantasaal", role: "(President)", occupation: "(Businessman)" },
   { name: "Dr. Raghu Akamanchi", role: "(Secretary)", occupation: "(Social Worker)" },
@@ -11,6 +12,20 @@ const sevaBharati = [
   { name: "Shri. Narasim Kulkarni", role: "(Trustee)", occupation: "(Social Worker)" },
   { name: "Shri. Ramesh Tippanur", role: "(Trustee)", occupation: "(Businessman)" },
   { name: "Shri. Bharat Jain", role: "(Treasurer)", occupation: "(Businessman)" },
+=======
+const founders = [
+  { name: "Prof.TukaramSingh Jamadar", role: "(President)", image: "/img.jpg" },
+  { name: "Shri.Lukkannasa Rajoli", role: "(Vice - President)", image: "/edit2.jpg" },
+  { name: "Shri.Jayaraj Mulgund", role: "(Secretary)", image: "/edit9.jpg" },
+  { name: "Shri.Jitendra Shah", role: "(Treasurer)", image: "/edit6.jpg" },
+  { name: "Shri.Basavaraj Nagalapur", role: "(Members)", image: "/edit1.jpg" },
+  { name: "Dr.Umesh Hadi", role: "(Members)", image: "/edit5.jpg" },
+  { name: "Shri.Umakanatasa Merwade", role: "(Members)", image: "/edit3.jpg" },
+  { name: "Shri.Prakash Vailaya", role: "(Members)", image: "/edit4.jpg" },
+  { name: "Shri.Basavaraj Pattanshetti", role: "(Members)", image: "/edit7.jpg" },
+  { name: "Shri.Jayaprakash Bhajantri", role: "(Members)", image: "/edit8.jpg" },
+  { name: "Shri.Lalit Jain", role: "(Members)", image: "/edit10.jpg" },
+>>>>>>> 377bb59f7395b1b9db7f2c1765c163464bc4b191
 ];
 
 const founders = [
@@ -30,12 +45,21 @@ const founders = [
 ];
 
 const teamMembers = [
+<<<<<<< HEAD
   { name: "Shri. Malikarjun Nagalapur ", role: "(Accountant)", occupation: "(Since-2018)" },
   { name: "Shri. Mallappa Hakki", role: "(HeadMaster)",occupation: "(Since-2016)" },
   { name: "Shri. Jagadeesh Hadapad ", role: "(Asst. Teacher)",occupation: "(Since-2017)" },
   { name: "Smt. Renuka Dasar", role: "(Care taker)",occupation: "(Since-2007)" },
   { name: "Smt. Jayashree Bahavre ", role: "(Asst. Teacher)",occupation: "(Since-2010)" },
   { name: "Smt. Veena Kolhapure", role: "(Care taker)",occupation: "(Since-2023)" },
+=======
+  { name: "Shri. Malikarjun ", role: "(Administrator & Accountant)", image: "/edit11.jpg" },
+  { name: "Shri. Mallappa Hakki", role: "(HeadMaster)", image: "/staff1.jpg" },
+  { name: "Shri. Jagadeesh Hadapad ", role: "(Asst. Teacher)", image: "/staff5.jpg" },
+  { name: "Smt. Jayshree Bahavre", role: "(Asst. Teacher)", image: "/staff4.jpg" },
+  { name: "Smt. Veena kolhapure", role: "(Care taker)", image: "/staff2.jpg" },
+  { name: "Smt.Ranuka dasar", role: "(Care taker)", image: "/staff3.jpg" },
+>>>>>>> 377bb59f7395b1b9db7f2c1765c163464bc4b191
 ];
 
 export default function TeamSection() {

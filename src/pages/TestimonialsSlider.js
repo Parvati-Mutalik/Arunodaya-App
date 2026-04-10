@@ -50,7 +50,7 @@ const testimonials = [
     title: "Every Ability Deserves Opportunity",
     content:
       "It’s always a pleasure and motivating to visit Arunodaya school. I wish a very healthy and successful growth for this institution and may the service mindset of this institute be the model for the people of Gadag.",
-    name: "Mahammadsh Nadaf",
+    name: "Mohammed Nadaf",
     identity: "Narasapur, Gadag",
     link: "#"
   },
