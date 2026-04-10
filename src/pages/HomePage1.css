@@ -235,11 +235,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
-  background: #ffffff34;
-=======
-  background: #ffffff33;
->>>>>>> 377bb59f7395b1b9db7f2c1765c163464bc4b191
+  /* background: #ffffff33; */
+  /* background: #ffffff34; */
 }
 
 .slideUpModal {

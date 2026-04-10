@@ -60,11 +60,8 @@ function HomePage1() {
       <nav className="nav">
         <div className="logoSection">
           <div className="logo">
-<<<<<<< HEAD
            {/* <img src="/sevauk logo.jpg" alt="Sevauk Logo" /> */}
-=======
-            <img src="/Sevauk logo.jpg" alt="Sevauk Logo" />
->>>>>>> 377bb59f7395b1b9db7f2c1765c163464bc4b191
+            {/* <img src="/Sevauk logo.jpg" alt="Sevauk Logo" /> */}
           </div>
           <div className="logo">
             <img src="/logo22.jpg" alt="Arunodaya Logo" />
