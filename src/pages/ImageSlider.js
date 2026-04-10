@@ -15,25 +15,24 @@ const activitySlides = [
   { url: "/image5.jpg", title: "Fancy Dress" },
   { url: "/act2.jpg", title: "Learning" },
   { url: "/act3.jpg", title: "Activities" },
-  { url: "/award.jpg", title: "Quziable 24-25,Cerebralpalsy students,14 States" },
+  { url: "/award.jpg", title: "Quziable 24-25,Cerebralpalsy students,14 States" },
 ];
 
 const medicalSlides = [
-  { url: "/medical1.jpg", title: "Dr. Prakash Sanknur(Orthopaedic surgeon)" },
-  { url: "/medical2.jpg", title: "Dr. Balesh Shiragumpi(Neurosurgeon)" },
+  { url: "/medical1.jpg", title: "Dr. Prakash Sanknur (Orthopaedic surgeon)" },
+  { url: "/medical2.jpg", title: "Dr. Balesh Shiragumpi (Neurosurgeon)" },
   { url: "/medical3.jpg", title: "Dr.Prakash Hosamani (MBBS MD Consulting Physician)" },
-  { url: "/medical4.jpg", title: "Dr. Somashekar Bijjal(Sychiatrist)" },
-  { url: "/medical5.jpg", title: "Dr. Radhika UdayKumar Kulkarni (Gynaecologist)" },
+  { url: "/medical4.jpg", title: "Dr. Somashekar Bijjal (Psychiatrist)" },
+  { url: "/medical5.jpg", title: "Dr.Radhika UdayKumar Kulkarni(Gynaecologist)" },
 ];
 
 const therapySlides = [
   { url: "/v1.jpg", title: "BOB Bank Tub Ball Donote" },
   { url: "/v2.jpg", title: "Tulsi from Uk" },
   { url: "/v3.jpg", title: "Seva UK" },
-   { url: "/v4.jpg", title: "Teaching Adis" },
-  { url: "/v5.jpg", title: "Conselling" },
-  { url: "/v6.jpg", title: "Conselling" },
-  
+  { url: "/v4.jpg", title: "Teaching Adis" },
+  { url: "/v5.jpg", title: "Counselling" },
+  { url: "/v6.jpg", title: "Counselling" },
 ];
 
 const AUTO_PLAY_DELAY = 3000;
@@ -88,10 +87,10 @@ const ImageSlider = () => {
           Activities
         </button>
         <button className={section === "medical" ? "active" : ""} onClick={() => setSection("medical")}>
-          Medical Sessions
+          {/* Medical Sessions */}Medical
         </button>
         <button className={section === "therapy" ? "active" : ""} onClick={() => setSection("therapy")}>
-         Visiters
+          Visiters
         </button>
       </div>
 
@@ -125,7 +124,7 @@ const ImageSlider = () => {
                 <div className="photo-frame">
                   <img src={slide.url} alt={slide.title} />
                 </div>
-                <p>{slide.title}</p>
+                <p className="photo-description">{slide.title}</p>
                 <div className="reflection" />
               </div>
             );
@@ -138,3 +137,4 @@ const ImageSlider = () => {
 };
 
 export default ImageSlider;
+

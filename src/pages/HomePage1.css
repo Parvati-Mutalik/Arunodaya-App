@@ -130,7 +130,7 @@
 .hamburger span {
   display: block;
   height: 3px;
-  background: white;
+  background: rgb(238, 184, 22);
   border-radius: 3px;
   transition: all 0.3s ease;
   margin-bottom: 4px;
@@ -145,6 +145,8 @@
 .hamburger.open span:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -6px);
 }
+
+
 
 /* ===== Donate Button Sticky ===== */
 .donateSticky {
@@ -191,7 +193,7 @@
   font-weight: 500;
   font-size: 1.45rem;
   letter-spacing: 1.2px;
-  color: #f0f0f0;
+  color: #f9f9f6;
   margin-bottom: 22px;
   margin-top: 49vh;
   line-height: 1.6;
@@ -233,7 +235,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: #ffffff34;
 }
 
 .slideUpModal {
@@ -310,6 +312,7 @@
 /* ===== About Section ===== */
 .about-section {
   padding: 60px 20px;
+  text-align: center;
   background-color: #f9f9f9;
   color: rgb(208, 185, 185);
 }
@@ -318,17 +321,20 @@
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
+  display: center;
+  text-align: center;
 }
 
 .school-about-text {
-  font-size: 16px;
+  font-size: 11px;
   line-height: 1.8;
-  text-align: left;
+  text-align: center;
 }
 
 .school-hr {
   margin-top: 40px;
   border-top: 2px solid #0e91e247;
+  text-align: center;
 }
 
 .events-section {
@@ -464,7 +470,7 @@
   .logo-quote { font-size: 12px; text-align: center; }
   .slogan { font-size: 0.95rem; margin-top: 35vh; }
   .donateSticky { bottom: 1rem; right: 1rem; padding: 10px 20px; font-size: 0.9rem; }
-  .school-subheading { font-size: 20px; }
+  .school-subheading { font-size: 20px; text-align: center;}
   .school-about-text { font-size: 14px; }
 }
 /* ===== Hero Slider ===== */

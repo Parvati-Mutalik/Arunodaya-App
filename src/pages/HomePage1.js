@@ -60,7 +60,7 @@ function HomePage1() {
       <nav className="nav">
         <div className="logoSection">
           <div className="logo">
-            <img src="/sevauk logo.jpg" alt="Sevauk Logo" />
+           {/* <img src="/sevauk logo.jpg" alt="Sevauk Logo" /> */}
           </div>
           <div className="logo">
             <img src="/logo22.jpg" alt="Arunodaya Logo" />
@@ -131,9 +131,9 @@ function HomePage1() {
                       </span>
                     ))}
                   </div>
-                  <button className="loginBtn" onClick={handleDonateClick}>
+                  {/* <button className="loginBtn" onClick={handleDonateClick}>
                     Donate Us
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </SwiperSlide>
@@ -194,7 +194,7 @@ function HomePage1() {
         </div>
         <div className="school-diagram">
           <img
-            src="/diagram.jpg"
+            src="/diagramcrt.png"
             alt="Mission Diagram"
             className="mission-img"
           />

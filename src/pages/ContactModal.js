@@ -9,7 +9,7 @@ function ContactModal({ onClose }) {
         <div className="contactHeader">
           <div className="contactHeader-left">
             {/* Replace src with your logos as needed */}
-            <img src="/Sevauk logo.jpg" alt="sewa logo" className="contactLogo" />
+            {/* <img src="/Sevauk logo.jpg" alt="sewa logo" className="contactLogo" /> */}
             <img src="/image8.jpg" alt="arunodaya logo" className="contactLogo" />
             <span className="arunodayaText">
               <span>ARUNODAYA</span>
