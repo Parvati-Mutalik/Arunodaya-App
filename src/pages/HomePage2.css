@@ -156,10 +156,7 @@
   width: 50%;
   margin: 30px auto;
   border-radius: 2px;
-<<<<<<< HEAD
   text-align: center;
-=======
->>>>>>> 377bb59f7395b1b9db7f2c1765c163464bc4b191
 }
 
 /* ===== Responsive Adjustments ===== */
@@ -170,10 +167,7 @@
   }
   .about-section .school-subheading {
     font-size: 1.4rem;
-<<<<<<< HEAD
     text-align: center;
-=======
->>>>>>> 377bb59f7395b1b9db7f2c1765c163464bc4b191
   }
   .school-about-text {
     font-size: 1rem;
@@ -191,10 +185,8 @@
   }
   .about-section .school-subheading {
     font-size: 1.2rem;
-<<<<<<< HEAD
     text-align: center;
-=======
->>>>>>> 377bb59f7395b1b9db7f2c1765c163464bc4b191
+
   }
   .school-about-text {
     font-size: 0.95rem;
